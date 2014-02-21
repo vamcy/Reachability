@@ -253,9 +253,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
         if ((flags & kSCNetworkReachabilityFlagsInterventionRequired) == 0)
         {
-            /*
-             ... and no [user] intervention is needed...
-             */
+            
             returnValue = ReachableViaWiFi;
         }
     }
